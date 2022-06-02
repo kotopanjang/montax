@@ -1,0 +1,127 @@
+Pengguna
+    ID_Pengguna
+    Nama_Depan
+    Nama_Belakang
+    Email
+    Password
+    Tipe_Member
+    Membership_Start
+    Membership_Exp
+    Created_at
+    Updated_at
+WP
+    ID_WP
+    ID_Pengguna
+    Nama_Depan
+    Nama_Tengah
+    Nama_Belakang
+    Email
+    Password
+    Created_at
+    Updated_at
+
+Kategori
+    ID_Kategori
+    Jenis
+    Nama
+Sub_Kategori
+    ID_Kategori
+    ID_Sub_Kategori
+    Nama
+    Created_by
+    Created_at
+    Updated_at
+    Show_Status
+
+Bank
+    Kode_Bank
+    Nama_Bank
+    Jenis
+
+Sumber_Dana
+    ID_Record
+    ID_WP
+    Jenis
+    Inisial
+    No_Rekening
+    Nama_Bank
+    Pemilik_Rekening
+    Created_at
+    Updated_at
+    Show_Status
+
+Pemasukan
+    ID_Record
+    ID_WP
+    Nomor_Perkiraan
+    Sub_Nomor_Perkiraan
+    Tanggal
+    Jumlah
+    Keterangan
+    Masuk_Ke
+    Created_at
+    Updated_at
+    Show_Status
+
+Pengeluaran
+    ID_Record
+    ID_WP
+    Nomor_Perkiraan
+    Sub_Nomor_Perkiraan
+    Tanggal
+    Jumlah
+    Keterangan
+    Masuk_Ke
+    Created_at
+    Updated_at
+    Show_Status
+
+Hutang
+    ID_Record
+    ID_WP
+    Tanggal
+    Tanggal_Jatuh_Tempo
+    Jumlah
+    Keterangan
+    Created_at
+    Updated_at
+    Show_Status
+
+Harta
+    ID_Record
+    ID_WP
+    Kategori_Harta
+    Sub_Kategori_Harta
+    Tanggal
+    Nilai
+    Keterangan
+    Created_at
+    Updated_at
+    Show_Status
+
+Harta_Sub
+    ID_Record
+    ID_WP
+    Jenis
+    Deskripsi
+    Created_at
+    Updated_at
+    Show_Status
+
+Pajak_Tarif_PTKP
+    Kode
+    Keterangan
+    Jumlah
+
+
+bukti_potong
+	ID_Record
+	ID_WP
+	Jenis_Pajak	NPWP_Pemotong
+	Nama_Pemotong
+	Nomor_Bukti_Pemotongan
+	Tanggal_Bukti_Pemotongan
+	Jumlah
+	created_at
+	updated_at
+	show_status	

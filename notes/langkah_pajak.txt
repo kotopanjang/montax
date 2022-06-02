@@ -1,0 +1,149 @@
+Harta
+Kode Harta
+Nama Harta
+Tahun Perolehan
+Harga Perolehan
+Keterangan
+------ sub total
+
+Hutang
+Kode Hutang
+Nama Pemberi Pinjaman
+Alamat Pemberi Pinjaman
+Tahun Peminjaman
+Jumlah
+------- sub total
+
+KK
+Nama
+NIK
+Hubungan Keluarga
+Pekerjaan
+
+
+LANGKAh-LANGKAH 
+1. Data Formulir
+    Tahun Pajak --> combobox Tahun
+    Status SPT --> Combobox Normal, Pembetulan Ke- 
+    Pembetulan Ke- --> Input Text
+
+2. Daftar Pemotongan/Pemungutan PPh Oleh Pihak Lain dan PPH yang Ditanggung Pemerintah
+    button Tambah +
+
+    Form : 
+    Jenis Pajak --> combobox pasal 21 .....
+    NPWP Pemotong/ Pemungut Pajak --> Input text
+    Nama Pemotong/ Pemungut Pajak --> Input text
+    Nomor Bukti Pemotongan/ Pemungutan --> Input text
+    Tanggal Bukti Pemotongan/ Pemungutan --> Input Date
+    Jumlah PPh yang Dipotong/ Dipungut --> Jumlah
+
+3. Masukkan Penghasilan Neto Dalam Negeri Sehubungan dengan Pekerjaan
+
+4. Masukkan Penghasilan Dalam Negeri Lainnya, bila ada
+
+    Apakah memiliki penghasilan dalam negeri lainnya
+    radio button ya, tidak
+
+    if ya
+    isi tabel
+
+5. Apakah anda memiliki penghasilan luar negeri?
+
+    radio button ya, tidak
+
+    if ya isi input text
+
+6. Apakah Anda memiliki penghasilan yang tidak termasuk objek pajak?
+
+    radio button ya, tidak
+
+    if ya
+    isi tabel
+
+7. Apakah anda memiliki penghasilan yang pajaknya sudah dipotong PPh Final?
+
+    radio button ya, tidak
+
+    if ya
+    
+    tekan button tambah +
+    isi form :
+        Sumber Jenis Penghasilan
+        DPP/ Penghasilan Bruto
+        PPh Terutang
+    (ini udah tabel kalau di formulir)
+
+8. Apakah anda memiliki harta ?
+
+    radio button ya, tidak
+
+    if ya
+    
+    tekan button tambah +
+    isi form :
+        Harta
+        Kode Harta
+        Nama Harta
+        Tahun Perolehan
+        Harga Perolehan
+        Keterangan
+    (ini udah tabel kalau di formulir)
+
+9. Apakah anda memliki utang?
+
+    radio button ya, tidak
+
+    if ya
+    
+    tekan button tambah +
+    isi form :
+        Kode Hutang
+        Nama Pemberi Pinjaman
+        Alamat Pemberi Pinjaman
+        Tahun Peminjaman
+        Jumlah
+    (ini udah tabel kalau di formulir)
+
+10. Apakah Anda memiliki Tanggungan?
+    radio button ya, tidak
+
+    if ya
+    
+    tekan button tambah +
+    isi form :
+        Nama
+        NIK
+        Hubungan Keluarga
+        Pekerjaan
+    (ini udah tabel kalau di formulir)
+
+11. Apakah Anda membayar Zakat/Sumbangan Keagamaan Kegiatan Wajib?
+    radio button ya, tidak
+
+12. Status Kewajiban Perpajakan Suami Istri
+    Status Perkawinan --> Radio Button (Tidak Kawin, Kawin)
+    Status Kewajiban Perpajakan Suami-Istri --> Combobox KK,PH,MT,HB
+    NPWP Isteri/Suami --> Input Text
+
+    Pilih Golongan PTKP Anda
+    Penghasilan Tidak Kena Pajak/Jumlah Tanggungan --> Combobox PTKP --> Jumlah Tanggungan
+
+13. Apakah Anda memiliki pengembalian/pengurangan PPh Pasal 24 dari Penghasilan LN?
+    radio button ya, tidak
+
+14. Apakah Anda melakukan pembayaran PPh Pasal 25?
+    input text (form no 14a)
+    Apakah Anda sudah membayar STP PPh PAsal 25 (hanya pokok pajak)?
+    input text (form no 14b)
+
+15. Perhitungan Pajak Penghasilan (PPh)
+    ditampilkan tabel formulir halaman pertama (jumlah penghasilan neto, ptkp, pkp, pph, dll)
+
+16. Perhitungan PPh Pasal 25, bila ada
+    input combo box, input jumlah (jika ada)
+
+17. Konfirmasi
+
+18. Masukkan Kode
+

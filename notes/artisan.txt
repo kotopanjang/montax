@@ -1,0 +1,21 @@
+php artisan make:model Pengguna --migration
+php artisan make:model WP --migration
+php artisan make:model Kategori --migration
+php artisan make:model Sub_Kategori --migration
+php artisan make:model Bank --migration
+php artisan make:model Sumber_Dana --migration
+php artisan make:model Pemasukan --migration
+php artisan make:model Pengeluaran --migration
+php artisan make:model Hutang --migration
+php artisan make:model Harta --migration
+php artisan make:model Harta_Sub --migration
+php artisan make:model Pajak_Tarif_PTKP --migration
+
+
+protected $fillable = [
+    'id',
+    'nama_lengkap',
+];
+
+public $incrementing = false;
+public $timestamps = false;

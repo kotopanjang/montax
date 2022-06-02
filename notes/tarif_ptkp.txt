@@ -1,0 +1,97 @@
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]')
+
+
+
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','TK/0','WP Tidak Kawin Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','TK/1','WP Tidak Kawin Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','TK/2','WP Tidak Kawin Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','TK/3','WP Tidak Kawin Punya 3 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','K/0','WP Kawin Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','K/1','WP Kawin Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','K/2','WP Kawin Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','K/3','WP Kawin Punya 3 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','K/I/0','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','K/I/1','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','K/I/2','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2001','K/I/3','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 3 Tanggungan',
+
+
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','TK/0','WP Tidak Kawin Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','TK/1','WP Tidak Kawin Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','TK/2','WP Tidak Kawin Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','TK/3','WP Tidak Kawin Punya 3 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','K/0','WP Kawin Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','K/1','WP Kawin Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','K/2','WP Kawin Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','K/3','WP Kawin Punya 3 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','K/I/0','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','K/I/1','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','K/I/2','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2005','K/I/3','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 3 Tanggungan',
+
+
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','TK/0','WP Tidak Kawin Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','TK/1','WP Tidak Kawin Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','TK/2','WP Tidak Kawin Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','TK/3','WP Tidak Kawin Punya 3 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','K/0','WP Kawin Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','K/1','WP Kawin Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','K/2','WP Kawin Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','K/3','WP Kawin Punya 3 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','K/I/0','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','K/I/1','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','K/I/2','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2006','K/I/3','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 3 Tanggungan',
+
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','TK/0','WP Tidak Kawin Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','TK/1','WP Tidak Kawin Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','TK/2','WP Tidak Kawin Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','TK/3','WP Tidak Kawin Punya 3 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','K/0','WP Kawin Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','K/1','WP Kawin Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','K/2','WP Kawin Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','K/3','WP Kawin Punya 3 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','K/I/0','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Tanpa Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','K/I/1','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 1 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','K/I/2','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 2 Tanggungan',
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2009','K/I/3','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 3 Tanggungan',
+
+
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','TK/0','WP Tidak Kawin Tanpa Tanggungan',24300000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','TK/1','WP Tidak Kawin Punya 1 Tanggungan',26325000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','TK/2','WP Tidak Kawin Punya 2 Tanggungan',28350000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','TK/3','WP Tidak Kawin Punya 3 Tanggungan',30375000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','K/0','WP Kawin Tanpa Tanggungan',26325000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','K/1','WP Kawin Punya 1 Tanggungan',28350000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','K/2','WP Kawin Punya 2 Tanggungan',30375000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','K/3','WP Kawin Punya 3 Tanggungan',32400000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','K/I/0','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Tanpa Tanggungan',50625000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','K/I/1','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 1 Tanggungan',52650000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','K/I/2','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 2 Tanggungan',54675000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2013','K/I/3','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 3 Tanggungan',56700000);
+
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','TK/0','WP Tidak Kawin Tanpa Tanggungan',36000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','TK/1','WP Tidak Kawin Punya 1 Tanggungan',39000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','TK/2','WP Tidak Kawin Punya 2 Tanggungan',42000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','TK/3','WP Tidak Kawin Punya 3 Tanggungan',45000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','K/0','WP Kawin Tanpa Tanggungan',39000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','K/1','WP Kawin Punya 1 Tanggungan',42000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','K/2','WP Kawin Punya 2 Tanggungan',45000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','K/3','WP Kawin Punya 3 Tanggungan',48000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','K/I/0','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Tanpa Tanggungan',75000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','K/I/1','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 1 Tanggungan',78000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','K/I/2','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 2 Tanggungan',81000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2015','K/I/3','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 3 Tanggungan',84000000);
+
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','TK/0','WP Tidak Kawin Tanpa Tanggungan',54000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','TK/1','WP Tidak Kawin Punya 1 Tanggungan',58500000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','TK/2','WP Tidak Kawin Punya 2 Tanggungan',63000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','TK/3','WP Tidak Kawin Punya 3 Tanggungan',67500000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','K/0','WP Kawin Tanpa Tanggungan',58500000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','K/1','WP Kawin Punya 1 Tanggungan',63000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','K/2','WP Kawin Punya 2 Tanggungan',67500000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','K/3','WP Kawin Punya 3 Tanggungan',72000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','K/I/0','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Tanpa Tanggungan',112500000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','K/I/1','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 1 Tanggungan',117000000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','K/I/2','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 2 Tanggungan',121500000);
+INSERT INTO `pajak_tarif_ptkp`(`Tahun_Berlaku`, `Kode`, `Keterangan`, `Jumlah`) VALUES ('2016','K/I/3','WP Kawin dan Penghasilan Istri digabung Penghasilan Suami Punya 3 Tanggungan',126000000);
