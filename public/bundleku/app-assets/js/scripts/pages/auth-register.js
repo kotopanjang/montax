@@ -144,6 +144,8 @@ $(function () {
 
     //JANGAN LUPA INI DIUBAH SEWAKTU HOSTING
     var myurl = "http://127.0.0.1:8000";
+    // var myurl = "http://localhost:8000";
+    // var myurl = "http://montax.xyz";
     //STOP BATAS UBAH
     $(registerMultiStepsWizard)
       .find('.btn-submit')

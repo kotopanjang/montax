@@ -67,6 +67,28 @@ class Harta extends Model
                             );
     }
 
+    // FINANCIAL CHECKUP
+    public static function sum_harta($paramid,$paramtahun)
+    {
+        $id_wp = $paramid;
+        $harta =    \DB::table('harta')->where('ID_WP', '=', $id_wp)
+                                                            ->where(\DB::raw('YEAR(Tanggal)'),'=',$paramtahun)
+                                                            ->sum('harta.nilai');
+        // $param_pemasukan_utama        =\DB::select("SELECT SUM(Jumlah) from pemasukan where ID_WP ='".$id_wp."' and Nomor_Perkiraan = 4001 and pemasukan.show_status = 1 ");
+        return $harta;
+    }
+
+    public static function sum_harta_investasi($paramid,$paramtahun)
+    {
+        $id_wp = $paramid;
+        $harta =    \DB::table('harta')->where('ID_WP', '=', $id_wp)
+                                                            ->where(\DB::raw('YEAR(Tanggal)'),'=',$paramtahun)
+                                                            ->whereIn('kategori_harta', array(8001, 8002))
+                                                            ->sum('harta.nilai');
+        // $param_pemasukan_utama        =\DB::select("SELECT SUM(Jumlah) from pemasukan where ID_WP ='".$id_wp."' and Nomor_Perkiraan = 4001 and pemasukan.show_status = 1 ");
+        return $harta;
+    }
+
     public $incrementing = false;
     public $timestamps = false;
 

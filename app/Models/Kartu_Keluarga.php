@@ -22,5 +22,6 @@ class Kartu_Keluarga extends Model
         'created_at',
         'updated_at',
         'show_status',
+        'tanggungan'
     ];
 }

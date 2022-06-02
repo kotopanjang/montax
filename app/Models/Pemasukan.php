@@ -80,4 +80,16 @@ class Pemasukan extends Model
         // $param_pemasukan_non_utama = 100000;
         return $param_pemasukan_non_utama;
     }
+
+    // FINANCIAL CHECKUP
+    public static function sum_pemasukan_tahun($paramid,$paramtahun)
+    {
+        $id_wp = $paramid;
+        $param_pemasukan_utama =    \DB::table('pemasukan')->where('ID_WP', '=', $id_wp)
+                                                            ->where(\DB::raw('YEAR(Tanggal)'),'=',$paramtahun)
+                                                            ->where('show_status','=',1)
+                                                            ->sum('pemasukan.jumlah');
+        // $param_pemasukan_utama        =\DB::select("SELECT SUM(Jumlah) from pemasukan where ID_WP ='".$id_wp."' and Nomor_Perkiraan = 4001 and pemasukan.show_status = 1 ");
+        return $param_pemasukan_utama;
+    }
 }

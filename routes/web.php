@@ -162,11 +162,22 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('post_withdraw', [ControllerWP::class, 'Post_Withdraw'])->name('post_withdraw');
 
     Route::get('financial_check_up', [FinancialCheckUpController::class, 'Show_Financial_Check_Up'])->name('financial_check_up');
-    Route::post('FU_chart_2', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_2'])->name('FU_chart_2');
-    Route::post('FU_chart_3', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_3'])->name('FU_chart_3');
-    Route::post('FU_chart_4', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_4'])->name('FU_chart_4');
-    Route::post('FU_chart_5', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_5'])->name('FU_chart_5');
-    Route::post('FU_chart_6', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_6'])->name('FU_chart_6');
+    Route::post('FU_chart_FinancialOverview', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_FinancialOverview'])->name('FU_chart_FinancialOverview');
+    Route::post('FU_chart_IncomeOverview', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_IncomeOverview'])->name('FU_chart_IncomeOverview');
+    Route::post('FU_chart_RasioPenghasilanDanPengeluaran', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_RasioPenghasilanDanPengeluaran'])->name('FU_chart_RasioPenghasilanDanPengeluaran');
+    Route::post('FU_chart_RasioPassiveIncome', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_RasioPassiveIncome'])->name('FU_chart_RasioPassiveIncome');
+    Route::post('FU_chart_DistribusiPemasukan', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_DistribusiPemasukan'])->name('FU_chart_DistribusiPemasukan');
+    Route::post('FU_chart_DistribusiPengeluaran', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_DistribusiPengeluaran'])->name('FU_chart_DistribusiPengeluaran');
+    Route::post('FU_chart_RasioTabungan', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_RasioTabungan'])->name('FU_chart_RasioTabungan');
+    Route::post('FU_chart_DanaImpian', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_DanaImpian'])->name('FU_chart_DanaImpian');
+    Route::post('FU_chart_SaranRasio', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_SaranRasio'])->name('FU_chart_SaranRasio');
+    Route::post('FU_chart_Perbandingan_Hutang_Asset', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_Perbandingan_Hutang_Asset'])->name('FU_chart_Perbandingan_Hutang_Asset');
+    Route::post('FU_chart_Rasio_Pelunasan_Hutang', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_Rasio_Pelunasan_Hutang'])->name('FU_chart_Rasio_Pelunasan_Hutang');
+    Route::post('FU_chart_Rasio_Perbandingan_Aset_Investasi_vs_Nilai_Bersih_Kekayaan', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_Rasio_Perbandingan_Aset_Investasi_vs_Nilai_Bersih_Kekayaan'])->name('FU_chart_Rasio_Perbandingan_Aset_Investasi_vs_Nilai_Bersih_Kekayaan');
+    Route::post('FU_chart_Rasio_Perbandingan_Nilai_Bersih_Aset_vs_Nilai_Bersih_Kekayaan', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_Rasio_Perbandingan_Nilai_Bersih_Aset_vs_Nilai_Bersih_Kekayaan'])->name('FU_chart_Rasio_Perbandingan_Nilai_Bersih_Aset_vs_Nilai_Bersih_Kekayaan');
+    Route::post('FU_chart_Budgeting', [FinancialCheckUpController::class, 'Show_Financial_Check_Up_Chart_Budgeting'])->name('FU_chart_Budgeting');
+    
+    
 
     Route::get('SPT_WP', [ControllerWP::class, 'Show_SPT'])->name('SPT_WP');
 
@@ -180,15 +191,18 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('SPT_Panduan_WP/{tahun}', [ControllerWP::class, 'Show_Panduan_SPT'])->name('SPT_Panduan_WP');
     Route::get('SPT_Panduan_WP_PDF/{tahun}', [ControllerWP::class, 'Show_Panduan_SPT_PDF'])->name('SPT_Panduan_WP_PDF');
+    Route::get('SPT_Panduan_WP', [ControllerWP::class, 'Show_Panduan_SPT'])->name('SPT_Panduan_WP');
     Route::get('SPT_Dashboard_Panduan_WP', [ControllerWP::class, 'Show_Dashboard_Panduan'])->name('SPT_Dashboard_Panduan_WP');
 
 
     //SETTINGS
     Route::get('setting', [ControllerWP_Setting::class, 'Show_Settings'])->name('setting');
+    Route::post('post_wp', [ControllerWP_Setting::class, 'Post_Data_WP'])->name('post_wp');
+
     Route::get('setting_kk', [ControllerWP_Setting::class, 'Show_Settings_KK'])->name('setting_kk');
-
-    Route::post('post_KK', [ControllerWP_Setting::class, 'Post_Data_KK'])->name('post_KK');
-
+    Route::post('post_kk', [ControllerWP_Setting::class, 'Post_Data_KK'])->name('post_kk');
+    Route::get('get_kk', [ControllerWP_Setting::class, 'Get_KK'])->name('get_kk');
+    Route::post('delete_kk', [ControllerWP_Setting::class, 'Delete_KK'])->name('delete_kk');
 
 
     Route::get('User_logout', [ControllerUser::class, 'User_logout'])->name('User_logout');
